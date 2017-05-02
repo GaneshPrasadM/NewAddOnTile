@@ -1,0 +1,248 @@
+[2017-05-02 10:47:10.352] [DEBUG] jive-sdk - Registered system event  registration :  no description
+[2017-05-02 10:47:10.362] [DEBUG] jive-sdk - Registered system event  unregistration :  no description
+[2017-05-02 10:47:10.363] [DEBUG] jive-sdk - Registered system event  clientAppRegistration :  Framework handler
+[2017-05-02 10:47:10.364] [DEBUG] jive-sdk - Registered system event  clientAppUnregistration :  Framework handler
+[2017-05-02 10:47:10.364] [DEBUG] jive-sdk - Registered system event  getPaginatedResults :  Framework handler
+[2017-05-02 10:47:10.364] [DEBUG] jive-sdk - Registered system event  getExternalProps :  Framework handler
+[2017-05-02 10:47:10.365] [DEBUG] jive-sdk - Registered system event  setExternalProps :  Framework handler
+[2017-05-02 10:47:10.365] [DEBUG] jive-sdk - Registered system event  deleteExternalProps :  Framework handler
+[2017-05-02 10:47:10.366] [WARN] jive-sdk - Starting service in HTTP mode
+[2017-05-02 10:47:10.369] [DEBUG] jive-sdk - Global framework routes:
+[2017-05-02 10:47:10.370] [DEBUG] jive-sdk - POST /registration
+[2017-05-02 10:47:10.370] [DEBUG] jive-sdk - POST /unregister
+[2017-05-02 10:47:10.370] [DEBUG] jive-sdk - POST /jive/oauth/register
+[2017-05-02 10:47:10.371] [DEBUG] jive-sdk - Global dev framework routes:
+[2017-05-02 10:47:10.371] [DEBUG] jive-sdk - /dev/tiles
+[2017-05-02 10:47:10.372] [DEBUG] jive-sdk - setupExpressApp - Complete.
+[2017-05-02 10:47:10.372] [INFO] jive-sdk - Http node setup
+[2017-05-02 10:47:10.394] [DEBUG] jive-sdk - definitions:
+[
+    {
+        "sampleData": {
+            "title": "sampletile-list tile-list",
+            "contents": [
+                {
+                    "text": "Initial text to be replaced"
+                }
+            ],
+            "config": {
+                "listStyle": "contentList"
+            }
+        },
+        "displayName": "sampletile-list",
+        "name": "sampletile-list",
+        "description": "sampletile-list",
+        "style": "LIST",
+        "icons": {
+            "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+            "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+            "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+        },
+        "action": "http://localhost/sampletile-list/action",
+        "config": "http://localhost/sampletile-list/configure",
+        "unregister": "http://localhost/unregister",
+        "register": "http://localhost/registration"
+    }
+]
+[2017-05-02 10:47:10.395] [DEBUG] jive-sdk - templates:
+null
+[2017-05-02 10:47:10.395] [DEBUG] jive-sdk - apps:
+[]
+[2017-05-02 10:47:10.396] [DEBUG] jive-sdk - storageDefinitions:
+[]
+[2017-05-02 10:47:10.396] [DEBUG] jive-sdk - cartridges:
+[]
+[2017-05-02 10:47:10.403] [DEBUG] jive-sdk - Extension meta: 
+{
+    "package_version": "1.0",
+    "id": "544143c5-9bf5-4ce2-b155-d9f79c7c719e",
+    "type": "client-app",
+    "name": "sampletile-list",
+    "description": "Description for sampletile-list",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2017-05-02T05:09:04.309Z",
+    "service_url": "http://localhost"
+}
+[2017-05-02 10:47:10.498] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
+[2017-05-02 10:47:10.501] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
+[2017-05-02 10:47:10.516] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
+[2017-05-02 10:47:10.517] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
+[2017-05-02 10:47:10.518] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
+[2017-05-02 10:47:10.518] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
+[2017-05-02 10:47:10.519] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
+[2017-05-02 10:47:10.519] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
+[2017-05-02 10:47:10.520] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
+[2017-05-02 10:47:10.520] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
+[2017-05-02 10:47:10.521] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
+[2017-05-02 10:47:10.522] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
+[2017-05-02 10:47:10.523] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
+[2017-05-02 10:47:10.527] [DEBUG] jive-sdk - Zipping extension_src/public/favicon.ico to extension.zip  :  public/favicon.ico
+[2017-05-02 10:47:10.540] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.js to extension.zip  :  public/javascripts/bootstrap-30.js
+[2017-05-02 10:47:10.540] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.min.js to extension.zip  :  public/javascripts/bootstrap-30.min.js
+[2017-05-02 10:47:10.541] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap.min.js to extension.zip  :  public/javascripts/bootstrap.min.js
+[2017-05-02 10:47:10.542] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jQuery-1.10.2.js to extension.zip  :  public/javascripts/jQuery-1.10.2.js
+[2017-05-02 10:47:10.543] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery-1.8.3.js to extension.zip  :  public/javascripts/jquery-1.8.3.js
+[2017-05-02 10:47:10.544] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery.base64.min.js to extension.zip  :  public/javascripts/jquery.base64.min.js
+[2017-05-02 10:47:10.544] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.css to extension.zip  :  public/stylesheets/bootstrap-30.css
+[2017-05-02 10:47:10.545] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.min.css to extension.zip  :  public/stylesheets/bootstrap-30.min.css
+[2017-05-02 10:47:10.546] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.css to extension.zip  :  public/stylesheets/bootstrap.css
+[2017-05-02 10:47:10.546] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.min.css to extension.zip  :  public/stylesheets/bootstrap.min.css
+[2017-05-02 10:47:10.547] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/style.css to extension.zip  :  public/stylesheets/style.css
+[2017-05-02 10:47:10.556] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/action.html to extension.zip  :  public/tiles/sampletile-list/action.html
+[2017-05-02 10:47:10.557] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/configuration.html to extension.zip  :  public/tiles/sampletile-list/configuration.html
+[2017-05-02 10:47:10.574] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/javascripts/action.js to extension.zip  :  public/tiles/sampletile-list/javascripts/action.js
+[2017-05-02 10:47:10.576] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/javascripts/main.js to extension.zip  :  public/tiles/sampletile-list/javascripts/main.js
+[2017-05-02 10:47:10.578] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/stylesheets/main.css to extension.zip  :  public/tiles/sampletile-list/stylesheets/main.css
+[2017-05-02 10:47:10.656] [INFO] jive-sdk - Bootstrap complete.
+[2017-05-02 10:47:10.656] [INFO] jive-sdk - Jive SDK version 0.2.17
+[2017-05-02 10:47:10.657] [INFO] jive-sdk - Started service in  self-contained mode
+[2017-05-02 10:47:10.658] [DEBUG] jive-sdk - Scheduled task: sampletile-list.10000.0 10000
+[2017-05-02 10:47:10.659] [INFO] jive-sdk - Service started in development mode
+[2017-05-02 10:47:25.327] [INFO] jive-sdk - Updated 2 data file(s): [tileDefinition, jiveExtension]
+[2017-05-02 10:48:51.048] [WARN] jive-sdk - ******************************
+[2017-05-02 10:48:51.048] [WARN] jive-sdk - File persistence is configured.
+[2017-05-02 10:48:51.048] [WARN] jive-sdk - Please note that this should
+[2017-05-02 10:48:51.048] [WARN] jive-sdk - not be used for production!
+[2017-05-02 10:48:51.048] [WARN] jive-sdk - ******************************
+[2017-05-02 10:48:51.048] [DEBUG] jive-sdk - File persistence dir at 'db'
+[2017-05-02 10:48:51.064] [INFO] jive-sdk - Updating definition sampletile-list
+[2017-05-02 10:48:51.064] [DEBUG] jive-sdk - Registered system event  newInstance :  no description
+[2017-05-02 10:48:51.064] [DEBUG] jive-sdk - Registered system event  updateInstance :  no description
+[2017-05-02 10:48:51.064] [DEBUG] jive-sdk - Registered event for sampletile-list : 'sampletile-list.10000.0'  Unique to definition
+[2017-05-02 10:48:51.074] [DEBUG] jive-sdk - Route added for sampletile-list : [GET] /sampletile-list/action  ->  E:\MyNewAddOnTile/tiles/sampletile-list/backend/routes/action/get.js
+[2017-05-02 10:48:51.074] [DEBUG] jive-sdk - Route added for sampletile-list : [GET] /sampletile-list/configure  ->  E:\MyNewAddOnTile/tiles/sampletile-list/backend/routes/configure/get.js
+[2017-05-02 10:48:51.074] [INFO] jive-sdk - Running bootstrap.
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  newInstance :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  updateInstance :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  destroyedInstance :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  dataPushed :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  activityPushed :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  commentPushed :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  pushDataToJive :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  pushActivityToJive :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  fetchActivityByExternalIDFromJive :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  updateActivityToJive :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  pushCommentToJive :  Framework handler
+[2017-05-02 10:48:51.084] [DEBUG] jive-sdk - Registered system event  commentOnActivity :  Framework handler
+[2017-05-02 10:48:51.094] [DEBUG] jive-sdk - Registered system event  commentOnActivityByExternalID :  Framework handler
+[2017-05-02 10:48:51.094] [DEBUG] jive-sdk - Registered system event  fetchCommentsOnActivity :  Framework handler
+[2017-05-02 10:48:51.095] [DEBUG] jive-sdk - Registered system event  fetchCommentOnActivityByExternalID :  no description
+[2017-05-02 10:48:51.095] [DEBUG] jive-sdk - Registered system event  fetchActivityByExternalIDFromJive :  Framework handler
+[2017-05-02 10:48:51.096] [DEBUG] jive-sdk - Registered system event  fetchAllCommentsForExtstream :  Framework handler
+[2017-05-02 10:48:51.096] [DEBUG] jive-sdk - Registered system event  registration :  no description
+[2017-05-02 10:48:51.097] [DEBUG] jive-sdk - Registered system event  unregistration :  no description
+[2017-05-02 10:48:51.098] [DEBUG] jive-sdk - Registered system event  clientAppRegistration :  Framework handler
+[2017-05-02 10:48:51.099] [DEBUG] jive-sdk - Registered system event  clientAppUnregistration :  Framework handler
+[2017-05-02 10:48:51.100] [DEBUG] jive-sdk - Registered system event  getPaginatedResults :  Framework handler
+[2017-05-02 10:48:51.100] [DEBUG] jive-sdk - Registered system event  getExternalProps :  Framework handler
+[2017-05-02 10:48:51.100] [DEBUG] jive-sdk - Registered system event  setExternalProps :  Framework handler
+[2017-05-02 10:48:51.101] [DEBUG] jive-sdk - Registered system event  deleteExternalProps :  Framework handler
+[2017-05-02 10:48:51.102] [WARN] jive-sdk - Starting service in HTTP mode
+[2017-05-02 10:48:51.104] [DEBUG] jive-sdk - Global framework routes:
+[2017-05-02 10:48:51.105] [DEBUG] jive-sdk - POST /registration
+[2017-05-02 10:48:51.105] [DEBUG] jive-sdk - POST /unregister
+[2017-05-02 10:48:51.106] [DEBUG] jive-sdk - POST /jive/oauth/register
+[2017-05-02 10:48:51.106] [DEBUG] jive-sdk - Global dev framework routes:
+[2017-05-02 10:48:51.107] [DEBUG] jive-sdk - /dev/tiles
+[2017-05-02 10:48:51.108] [DEBUG] jive-sdk - setupExpressApp - Complete.
+[2017-05-02 10:48:51.108] [INFO] jive-sdk - Http node setup
+[2017-05-02 10:48:51.127] [DEBUG] jive-sdk - definitions:
+[
+    {
+        "sampleData": {
+            "title": "sampletile-list tile-list",
+            "contents": [
+                {
+                    "text": "Initial text to be replaced"
+                }
+            ],
+            "config": {
+                "listStyle": "contentList"
+            }
+        },
+        "displayName": "sampletile-list",
+        "name": "sampletile-list",
+        "description": "sampletile-list",
+        "style": "LIST",
+        "icons": {
+            "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+            "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+            "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+        },
+        "action": "http://localhost/sampletile-list/action",
+        "config": "http://localhost/sampletile-list/configure",
+        "unregister": "http://localhost/unregister",
+        "register": "http://localhost/registration"
+    }
+]
+[2017-05-02 10:48:51.128] [DEBUG] jive-sdk - templates:
+null
+[2017-05-02 10:48:51.128] [DEBUG] jive-sdk - apps:
+[]
+[2017-05-02 10:48:51.129] [DEBUG] jive-sdk - storageDefinitions:
+[]
+[2017-05-02 10:48:51.129] [DEBUG] jive-sdk - cartridges:
+[]
+[2017-05-02 10:48:51.135] [DEBUG] jive-sdk - Extension meta: 
+{
+    "package_version": "1.0",
+    "id": "544143c5-9bf5-4ce2-b155-d9f79c7c719e",
+    "type": "client-app",
+    "name": "sampletile-list",
+    "description": "Description for sampletile-list",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2017-05-02T05:09:04.309Z",
+    "service_url": "http://localhost"
+}
+[2017-05-02 10:48:51.222] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
+[2017-05-02 10:48:51.222] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
+[2017-05-02 10:48:51.243] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
+[2017-05-02 10:48:51.243] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
+[2017-05-02 10:48:51.244] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
+[2017-05-02 10:48:51.244] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
+[2017-05-02 10:48:51.245] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
+[2017-05-02 10:48:51.246] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
+[2017-05-02 10:48:51.246] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
+[2017-05-02 10:48:51.247] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
+[2017-05-02 10:48:51.247] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
+[2017-05-02 10:48:51.250] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
+[2017-05-02 10:48:51.250] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
+[2017-05-02 10:48:51.254] [DEBUG] jive-sdk - Zipping extension_src/public/favicon.ico to extension.zip  :  public/favicon.ico
+[2017-05-02 10:48:51.270] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.min.js to extension.zip  :  public/javascripts/bootstrap-30.min.js
+[2017-05-02 10:48:51.271] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.js to extension.zip  :  public/javascripts/bootstrap-30.js
+[2017-05-02 10:48:51.273] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap.min.js to extension.zip  :  public/javascripts/bootstrap.min.js
+[2017-05-02 10:48:51.275] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jQuery-1.10.2.js to extension.zip  :  public/javascripts/jQuery-1.10.2.js
+[2017-05-02 10:48:51.276] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery-1.8.3.js to extension.zip  :  public/javascripts/jquery-1.8.3.js
+[2017-05-02 10:48:51.277] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery.base64.min.js to extension.zip  :  public/javascripts/jquery.base64.min.js
+[2017-05-02 10:48:51.278] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.css to extension.zip  :  public/stylesheets/bootstrap-30.css
+[2017-05-02 10:48:51.279] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.min.css to extension.zip  :  public/stylesheets/bootstrap-30.min.css
+[2017-05-02 10:48:51.280] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.css to extension.zip  :  public/stylesheets/bootstrap.css
+[2017-05-02 10:48:51.281] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.min.css to extension.zip  :  public/stylesheets/bootstrap.min.css
+[2017-05-02 10:48:51.282] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/style.css to extension.zip  :  public/stylesheets/style.css
+[2017-05-02 10:48:51.288] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/action.html to extension.zip  :  public/tiles/sampletile-list/action.html
+[2017-05-02 10:48:51.289] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/configuration.html to extension.zip  :  public/tiles/sampletile-list/configuration.html
+[2017-05-02 10:48:51.300] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/javascripts/main.js to extension.zip  :  public/tiles/sampletile-list/javascripts/main.js
+[2017-05-02 10:48:51.301] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/javascripts/action.js to extension.zip  :  public/tiles/sampletile-list/javascripts/action.js
+[2017-05-02 10:48:51.302] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/sampletile-list/stylesheets/main.css to extension.zip  :  public/tiles/sampletile-list/stylesheets/main.css
+[2017-05-02 10:48:51.383] [INFO] jive-sdk - Bootstrap complete.
+[2017-05-02 10:48:51.384] [INFO] jive-sdk - Jive SDK version 0.2.17
+[2017-05-02 10:48:51.384] [INFO] jive-sdk - Started service in  self-contained mode
+[2017-05-02 10:48:51.386] [DEBUG] jive-sdk - Scheduled task: sampletile-list.10000.0 10000
+[2017-05-02 10:48:51.386] [INFO] jive-sdk - Service started in development mode
+[2017-05-02 10:49:06.061] [INFO] jive-sdk - Updated 2 data file(s): [tileDefinition, jiveExtension]
+[2017-05-02 10:52:26.597] [WARN] jive-sdk - ******************************
+[2017-05-02 10:52:26.597] [WARN] jive-sdk - File persistence is configured.
+[2017-05-02 10:52:26.597] [WARN] jive-sdk - Please note that this should
+[2017-05-02 10:52:26.597] [WARN] jive-sdk - not be used for production!
+[2017-05-02 10:52:26.597] [WARN] jive-sdk - ******************************
+[2017-05-02 10:52:26.597] [DEBUG] jive-sdk - File persistence dir at 'db'
+[2017-05-02 10:52:26.607] [INFO] jive-sdk - Updating definition sampletile-list
+[2017-05-02 10:52:26.607] [DEBUG] jive-sdk - Registered system event  newInstance :  no description

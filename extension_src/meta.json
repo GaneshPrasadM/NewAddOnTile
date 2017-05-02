@@ -1,0 +1,14 @@
+{
+    "package_version": "1.0",
+    "id": "544143c5-9bf5-4ce2-b155-d9f79c7c719e",
+    "type": "client-app",
+    "name": "sampletile-list",
+    "description": "Description for sampletile-list",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2017-05-02T05:09:04.309Z",
+    "service_url": "http://localhost"
+}
